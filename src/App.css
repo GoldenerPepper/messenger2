@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+}
+
+:root {
+  margin:0;
+}
+
+.registration {
+  height: 100vh;
+  background: #2D163F;
+}
+.input {
+  width: 486px;
+  height: 87px;
+  border-radius: 13px;
+  background-color: #FEF5FF ;
+  color: black ;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+.input-alias {
+  font-size: 0.9em;
+  color: blue;
+}
+
