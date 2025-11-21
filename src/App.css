@@ -6,24 +6,56 @@ body{
   margin:0;
 }
 
+.registrationPage {
+  width: 581px;
+  height: 743px;
+   border-radius: 13px;
+  background-color: #D9D9D9;
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .registration {
+  width:100vh;
   height: 100vh;
   background: #2D163F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .input {
   width: 486px;
   height: 87px;
   border-radius: 13px;
-  background-color: #FEF5FF ;
+  background-color: #f2f0f3 ;
   color: black ;
-  flex-direction: column;
-  justify-content: center;
   display: flex;
-  align-items: center;
 
 }
 .input-alias {
   font-size: 0.9em;
   color: blue;
+  
 }
 
+.button {
+  background-color: #905A9E;
+  width: 486px;
+  height: 87px;
+  border-radius: 13px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title {
+  color: black;
+  width: 486px;
+  height: 87px;
+}

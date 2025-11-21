@@ -18,14 +18,36 @@ const Input =(props:InputProps) => {
   )
 }
 
+type ButtonProps ={
+  title: String;
+  bacgroundColor?: String; 
+}
+
+const Button = (props: ButtonProps) => {
+  return (
+    <div className='button' style={{backgroundColor: props.bacgroundColor}}>
+      {props.title}
+
+    </div>
+  )
+}
+
+function Title() {
+  return <div className='title'> 
+    <h1>Registration</h1>;
+  </div>
+}
+
 function App() {
   return(
     <div className='registration'>
+      <div className='registrationPage'>
       <Input alias ={''} defaultValue={'Email'} />
       <Input alias ={''} defaultValue={'Password'} />
       <Input alias ={''} defaultValue={'Password'} />
-      
+      <Button title = {'Login'} />
 
+      </div>
     </div>
   )
  
